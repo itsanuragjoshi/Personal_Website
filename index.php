@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cocobox</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
-
-</head>
-
+<!-- INCLUDE header.php -->
+<?php require('./header.php') ?>
 <body>
 
     <!--Page Scroll Indicator-->
@@ -95,6 +79,8 @@
                     <div class="box-content bg-secondary checks">
                         <div class="m-3 p-3 bg-white border border-dark"><h2>Experience</h2></div>
                     </div>
+                </div>
+                <div class="col-md-12">
                     <div class="box-content">                    
                         <p><small>Company</small><br /><strong>WeBeeSocial</strong>, Delhi, India</p>
                         <p><small>Industry</small><br />Digital Marketing Services</p>
@@ -115,6 +101,8 @@
                         <p><small>Key Focus Areas</small><br />Website Design & Development, SEO, SMS/WhatsApp Marketing, Email Marketing, Digital/Print Marketing Collaterals</p>
                         <p><small>Platform/Tool Exposure</small><br />Google Analytics, Basecamp3, Google Search Console, Google Blogger, Adobe Photoshop, Corel Draw X7</p>
                     </div>
+                </div>
+                <div class="col-md-6">
                     <div class="box-content">                    
                         <p><small>Company</small><br /><strong>Ogilvy</strong>, Gurugram, India</p>
                         <p><small>Industry</small><br />Advertising Services</p>
@@ -265,12 +253,10 @@
 
         </div>
     </section>
-
-    <footer>
-        <div class="footer-love">
-            @2022, Anurag Joshi. Made with <i class="fa fa-heart pulse"></i> in India.
-        </div>
-    </footer>
+    <!-- INCLUDE footer.php -->
+    <?php require('./footer.php') ?>
+    
+    <!-- INCLUDE scripts.php -->
+    <?php require('./scripts.php') ?>
 </body>
-
 </html>
