@@ -1,4 +1,3 @@
-<!-- INCLUDE header.php -->
 <?php require('./header.php') ?>
 <body>
 
@@ -32,6 +31,8 @@
                 title="My Portfolio">
         </div>
     </div>
+
+    <!-- Hero Banner Section -->
     <section id="section01">
         <div class="banner-header">
             <div class="row">
