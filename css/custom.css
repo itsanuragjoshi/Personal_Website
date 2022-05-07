@@ -19,13 +19,17 @@ body {
 }
 
 .checks {
-    background: var(--color-secondary)!important;
+    background: var(--color-secondary) !important;
     background-image: radial-gradient(var(--color-primary) 1px, transparent 0) !important;
     background-size: 4px 4px !important;
-    background-position: -19px -19px;    
+    background-position: -19px -19px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: var(--font-primary);
 }
 
@@ -50,6 +54,7 @@ h4 {
 h5 {
     font-size: 1.2rem;
 }
+
 /*Logo CSS*/
 .logo {
     position: absolute;
@@ -62,7 +67,7 @@ h5 {
 
 .logo img {
     display: block;
-    height:90px;
+    height: 90px;
     cursor: pointer;
     margin: 0 auto;
 }
@@ -201,15 +206,18 @@ nav a:hover {
     border: 1px solid var(--color-primary);
 
 }
+
 .box-content img {
-    filter: grayscale(100%); 
+    filter: grayscale(100%);
 }
-.box-content:hover{
+
+.box-content:hover {
     transform: translateY(-4px);
     box-shadow: -10px 10px 0px var(--color-primary);
 }
+
 .box-content:hover img {
-    filter: grayscale(0%); 
+    filter: grayscale(0%);
 }
 
 ::placeholder {
@@ -231,11 +239,15 @@ nav a:hover {
 }
 
 @-webkit-keyframes pound {
-    to {transform: scale(1.1);} 
+    to {
+        transform: scale(1.1);
+    }
 }
 
 @keyframes pound {
-    to {transform: scale(1.1);}
+    to {
+        transform: scale(1.1);
+    }
 }
 
 /*CSS for Mobile Devices*/
@@ -256,10 +268,11 @@ nav a:hover {
     }
 
     h1 {
-        font-size:2.5rem !important;
+        font-size: 2.5rem !important;
     }
+
     h3 {
-        font-size:1.5rem !important;
-    }    
-        
+        font-size: 1.5rem !important;
+    }
+
 }
